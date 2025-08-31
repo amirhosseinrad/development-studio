@@ -1,0 +1,4 @@
+ir/ipaam/scaffolder/Main.class
+ir/ipaam/scaffolder/GenerateServiceCommand.class
+ir/ipaam/scaffolder/TemplateGenerator.class
+ir/ipaam/scaffolder/GenerateWizardCommand.class
