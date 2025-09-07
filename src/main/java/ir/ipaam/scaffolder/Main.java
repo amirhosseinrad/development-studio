@@ -5,7 +5,11 @@ import picocli.CommandLine;
 
 @CommandLine.Command(name = "ipaam-cli", mixinStandardHelpOptions = true, version = "1.0",
         description = "Scaffolding CLI for DDD + CQRS/ES + Camunda microservices",
-        subcommands = {GenerateServiceCommand.class, GenerateWizardCommand.class})
+        subcommands = {
+                GenerateServiceCommand.class,
+                GenerateWizardCommand.class,
+                GenerateEntityCommand.class
+        })
 public class Main implements Runnable {
     @Override
     public void run() {
